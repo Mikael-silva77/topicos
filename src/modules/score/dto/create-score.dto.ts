@@ -1,8 +1,5 @@
 /* eslint-disable prettier/prettier */
-export class CreateCriterionDto {
-    name: string;
-    weight: number;
-    active: boolean;
-    createdAt: Date;
-    // Scores: Score[];
+export class CreateScoreDto {
+    optionId: string;
+    criterionId: string;
 }
